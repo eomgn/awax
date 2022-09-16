@@ -306,3 +306,44 @@ header {
    color: RGB(103, 103, 103);
    line-height: 20px;
 }
+
+/* PROJECTS */
+
+.content-projects {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.projects--options {
+   border: 1px solid #d5d5d5;
+   background-color: #ededed;
+   border-radius: 50px;
+
+   display: inline-block;
+   padding: 0 30px;
+}
+
+.projects--options li {
+   list-style: none;
+
+   display: inline-block;
+   padding: 10px;
+
+   color: #000000;
+   font-size: 13px;
+   text-transform: uppercase;
+   border-left: 1px solid #d5d5d5;
+   border-bottom: 3px solid #ededed;
+
+   cursor: pointer;
+}
+
+.projects--options .active,
+.projects--options li:hover {
+   border-bottom: 3px solid #b28756;
+}
+
+.projects--options li:first-child {
+   border-left: 0;
+}

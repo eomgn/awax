@@ -347,3 +347,149 @@ header {
 .projects--options li:first-child {
    border-left: 0;
 }
+
+.area--photos {
+   width: 100vw;
+   max-width: 1140px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.area-geral-photos {
+   width: 280px;
+}
+
+.area--photos--content {
+   margin: 10px;
+   width: 260px;
+   height: 160px;
+}
+
+.area--photos--content img {
+   width: 260px;
+   height: 160px;
+}
+
+.area--photos--infotext {
+   position: absolute;
+   background-color: rgba(0, 0, 0, 0.8);
+   color: #ffffff;
+
+   width: 260px;
+   height: 160px;
+
+   display: none;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+.area--photos--infotext h5 {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 50px;
+}
+
+.area--photos--infotext p {
+   font-size: 12px;
+}
+
+.area--photos--content:hover .area--photos--infotext {
+   display: flex;
+}
+
+.content-projects .button {
+   margin-top: 25px;
+}
+.content-projects a {
+   width: fit-content;
+
+   border-radius: 20px;
+
+   padding: 10px 25px;
+
+   font-weight: bold;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   color: #ffffff;
+
+   background-color: #b28756;
+}
+
+/* TEAM */
+
+.bg-team {
+   background-image: url('./assets/images/bg.jpg');
+   background-size: cover;
+   background-position: center;
+   padding: 0;
+}
+
+.section--team-area {
+   background-color: rgba(0, 0, 0, 0.8);
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.content-team {
+   overflow: hidden;
+   max-width: 880px;
+   margin: auto;
+}
+
+.content-team .sliders {
+   width: 1000vw;
+   height: 100%;
+}
+
+.content-team .slide {
+   width: 280px;
+   height: 100%;
+   display: inline-block;
+
+   background-color: #ffffff;
+
+   margin-right: 20px;
+   min-height: 300px;
+}
+
+.content-team .slidearea {
+   height: 100%;
+
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+   align-items: center;
+
+   color: #ffffff;
+}
+
+.team-pointers {
+   margin-top: 50px;
+   height: 20px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   color: #b28756;
+}
+
+.team-pointers .pointer {
+   width: 15px;
+   height: 15px;
+   border: 1px solid #b28756;
+   border-radius: 50%;
+   margin: 0 5px;
+
+   cursor: pointer;
+}
+
+.team-pointers .active {
+   background-color: #b28756;
+}
